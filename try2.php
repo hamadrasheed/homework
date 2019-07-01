@@ -116,10 +116,12 @@
 
 		//using of  static variable
 
-		function myTest() {
-		static $x = 0;
-	    echo "The value assign to x is ". $x . "<br>";
-	    $x++;
+		function myTest() 
+		{
+			static $x = 0;
+			echo "The value assign to x is ". $x . "<br>";
+			$x++;
+			
 		}
 
 		myTest();
